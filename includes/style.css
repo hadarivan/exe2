@@ -1,0 +1,147 @@
+﻿* {margin:0; padding:0;}
+
+header, main, nav, footer, section{
+display: block;
+}
+
+a {
+	text-decoration:none;
+}
+
+body {
+	background-color:#f6f9f9;
+}
+
+header  {
+	padding-left:253px;
+	height:100px;
+}
+
+header a {
+	padding-top:40px;
+	color:#264951;
+}
+
+header a:hover {
+	color:#858b8c;
+}
+
+.mainMenu {
+	color:#264951;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:20px;
+	display:inline-block;
+}
+
+.logo {
+	padding-top:30px;
+	font-size:30px;
+	background: url(../images/logo.png) no-repeat left center;
+	font-family:Arial;
+	font-weight:bold;
+	width:197px;
+	padding-left:50px;
+	display:inline-block;
+}
+
+#cover {
+	width:100%;
+	text-align:center;
+	background: url(../images/cover.jpg) no-repeat;
+	height:800px;
+	color:#ffffff;
+}
+
+#cover h1 {
+	padding-top:247px;
+	font-family:Verdana;
+	display:inline-block;
+	font-size:40px;
+	border-bottom:2px solid #15a4fa;
+	width:290px;
+}
+
+#cover h4 {
+	font-family:Verdana;
+	font-size:20px;
+	padding-top:40px;
+	text-align:center;
+	padding-bottom:70px;
+}
+
+#cover a {
+	font-family:Verdana;
+	font-size:18px;
+	padding:21px;
+   	border: 2px solid #15a4fa;
+	color:#ffffff;
+}
+
+#info {
+	display:block;
+	height:345px;
+	background-color:#f6f9f9;
+}	
+
+#info h3 {
+	color:#2d3950;
+	padding-top:83px;
+	text-align:center;
+	font-family:Verdana;
+	font-size:40px;
+}
+
+#info p {
+	color:#999999;
+	font-size:20px;
+	padding-top:35px;
+	text-align:center;
+	font-family:Verdana;
+}
+
+#knowledge {
+	color:#2d3950;
+	height:640px;
+	font-family:Verdana;
+	padding-top:72px;
+	background-color:#ffffff;
+	font-size:30px;
+}
+
+#knowledge h3 {
+	text-align:center;
+}
+
+.skills_pic {
+	color:#2d3950;
+	padding-top:69px;
+	padding-bottom:20px;
+	padding-left:354px;
+	width:100px;
+	height:100px;
+}
+
+.skills_pic2 {
+	color:#2d3950;
+	padding-left:354px;
+	width:100px;
+	height:100px;
+}
+
+.skills_pic3 {
+	color:#2d3950;
+	padding-top:30px;
+	padding-left:354px;
+	width:100px;
+	height:100px;
+}
+
+footer {
+	color:#999999;
+	padding-top:25px;
+	font-family:Verdana;
+	width:1171px;
+	padding-left:250px;
+	display:inline-block;
+}
